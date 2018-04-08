@@ -1,0 +1,155 @@
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.15/iframeResizer.contentWindow.min.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+    body {
+      background-color: #131a24;
+      font-family: 'Roboto Thin', sans-serif;
+    }
+
+    #main {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .count-down-header {
+      color: #47e6e2;
+      text-align: center;
+      margin-bottom: 30px;
+      font-weight: 200 !important;
+    }
+
+    .countdown-item {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .item {
+      color: #47e6e2;
+      background-color: #292322;
+      display: inline-block;
+      text-align: center;
+      padding: 10px;
+    }
+    .item-detail {
+      font-weight: 700 !important;
+    }
+    .item-text {
+      color: white;
+      display: inline-block;
+      text-align: center;
+    }
+    .tinhte-logo {
+      margin: 20px;
+    }
+    @media only screen and (min-width: 320px) {
+      .tinhte-logo { width: 66px; height: 60px; }
+      .count-down-header { font-size: 25px; }
+
+      .item { width: 60px; height: 80px; }
+      .item-detail { font-size: 30px; }
+      .item-text { font-size: 10px; }
+    }
+    @media only screen and (min-width: 375px) {
+      .tinhte-logo { width: 66px; height: 60px; }
+      .count-down-header { font-size: 30px; }
+
+      .item { width: 80px; height: 105px; }
+      .item-detail { font-size: 40px; }
+      .item-text { font-size: 20px; }
+    }
+    @media only screen and (min-width: 768px) {
+      .tinhte-logo { width: 66px; height: 60px; }
+      .count-down-header { font-size: 50px; }
+
+      .item { width: 150px; height: 150px; }
+      .item-detail { font-size: 60px; }
+      .item-text { font-size: 30px; }
+    }
+    @media only screen and (min-width: 1024px) {
+      .tinhte-logo { width: 110px; height: 100px; }
+      .count-down-header { font-size: 70px; }
+
+      .item { width: 190px; height: 190px; }
+      .item-detail { font-size: 80px; }
+      .item-text { font-size: 40px; }
+    }
+  </style>
+</head><body>
+<div class="container-fluid">
+<div class="row">
+<div class="col-12" id="main">
+<img src="Tinhte.png" class="img-fluid tinhte-logo mx-auto d-block" alt="Tinh tế">
+<p class="count-down-header">00:00 | 08.04.2018</p>
+
+<div class="countdown-item">
+<div class="item"><span class="item-detail" id="day">00</span><br><span class="item-text">NGÀY</span></div>
+<div class="item"><span class="item-detail" id="hour">15</span><br><span class="item-text">GIỜ</span></div>
+<div class="item"><span class="item-detail" id="minute">34</span><br><span class="item-text">PHÚT</span></div>
+<div class="item"><span class="item-detail" id="second">46</span><br><span class="item-text">GIÂY</span></div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Apr 8, 2018 00:00:00").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+      // Get todays date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now an the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      if (days < 10) {
+        days = "0" + days;
+      }
+
+      if (hours < 10) {
+        hours = "0" + hours;
+      }
+
+      if (minutes < 10) {
+        minutes = "0" + minutes;
+      }
+
+      if (seconds < 10) {
+        seconds = "0" + seconds;
+      }
+
+      // Display the result in the element with id="demo"
+      // document.getElementById("demo").innerHTML = days + " ngày " + hours + " giờ "
+      // + minutes + " phút " + seconds + " giây ";
+
+      $("#day").text(days);
+      $("#hour").text(hours);
+      $("#minute").text(minutes);
+      $("#second").text(seconds);
+
+      // If the count down is finished, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+  </script>
+
+<div style="clear: both; display: block;"></div></body></html>

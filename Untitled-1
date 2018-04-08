@@ -1,0 +1,209 @@
+<div id="myCarousel" class="row carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+    <div class="row item active" style="height: 560px;">
+      <div class="col-md-4 col-lg-4 wow bounceIn" data-wow-duration="2s">
+        <div class="row clientsphoto">
+          <img src="img/bill.jpg" alt="Ramil">
+        </div>
+        <div class="row">
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+        </div>
+        <div class="row qoute">
+          <span>Thi thoảng đổi gió kiểu chơi cũng vui phết.</span>
+          <span>Chả mấy khi đi với các bạn mà mình chả quen xong lại thành cạ luôn.</span>
+          <span>Đc cái tiết kiệm hơn hẳn so với đi nhóm lẻ bình thường nên cho ĐCC 5 sao luôn nhé.</span>
+          <span>Quen đc mấy bạn cùng phòng nên lập thành team có slogan hẳn hoi luôn hehe "Lập nhóm dễ dàng, vui ko nhàm chán"</span>
+        </div>
+        <div class="row">
+          <i class="fa fa-quote-right qoute-right" aria-hidden="true" style="float: right;"></i>
+        </div>
+        <div class="row qoute-name">
+          <span class="name">Tu Anh Le</span></br>
+          <span class="pos">Marketing</span>
+        </div>
+      </div>
+    
+      <div class="col-md-4 col-lg-4 wow bounceIn" data-wow-duration="2s">
+        <div class="row clientsphoto">
+          <img src="img/eric.png" alt="Ramil">
+        </div>
+        <div class="row">
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+        </div>
+        <div class="row qoute">
+          <span>Just been on a great trip to Ninh Bình Province with Dichoichung. Tuan, our tour guide, was both informative and helpful,
+            I am from the UK and speak very little Vietnamese. We saw impressive scenery and wildlife and had a great lunch too. The
+            group were very friendly and I will certainly go on another trip.</span>
+        </div>
+        <div class="row">
+          <i class="fa fa-quote-right qoute-right" aria-hidden="true"></i>
+        </div>
+        <div class="row qoute-name">
+          <span class="name">John Lester</span></br>
+          <span class="pos">Giáo viên</span>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-lg-4 wow bounceIn" data-wow-duration="2s">
+        <div class="row clientsphoto">
+          <img src="img/eric.png" alt="Ramil">
+        </div>
+        <div class="row">
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+        </div>
+        <div class="row qoute">
+          <span>Just been on a great trip to Ninh Bình Province with Dichoichung. Tuan, our tour guide, was both informative and helpful,
+            I am from the UK and speak very little Vietnamese. We saw impressive scenery and wildlife and had a great lunch too.
+            The group were very friendly and I will certainly go on another trip.</span>
+        </div>
+        <div class="row">
+          <i class="fa fa-quote-right qoute-right" aria-hidden="true" style="float: right;"></i>
+        </div>
+        <div class="row qoute-name">
+          <span class="name">John Lester</span></br>
+          <span class="pos">Giáo viên</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row item" style="height: 560px;">
+      <div class="col-md-4 col-lg-4 wow bounceIn" data-wow-duration="2s">
+        <div class="row clientsphoto">
+          <img src="img/bill.jpg" alt="Ramil">
+        </div>
+        <div class="row">
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+        </div>
+        <div class="row qoute">
+          <span>Thi thoảng đổi gió kiểu chơi cũng vui phết.</span>
+          <span>Chả mấy khi đi với các bạn mà mình chả quen xong lại thành cạ luôn.</span>
+          <span>Đc cái tiết kiệm hơn hẳn so với đi nhóm lẻ bình thường nên cho ĐCC 5 sao luôn nhé.</span>
+          <span>Quen đc mấy bạn cùng phòng nên lập thành team có slogan hẳn hoi luôn hehe "Lập nhóm dễ dàng, vui ko nhàm chán"</span>
+        </div>
+        <div class="row">
+          <i class="fa fa-quote-right qoute-right" aria-hidden="true" style="float: right;"></i>
+        </div>
+        <div class="row qoute-name">
+          <span class="name">Tu Anh Le</span></br>
+          <span class="pos">Marketing</span>
+        </div>
+      </div>
+    
+      <div class="col-md-4 col-lg-4 wow bounceIn" data-wow-duration="2s">
+        <div class="row clientsphoto">
+          <img src="img/eric.png" alt="Ramil">
+        </div>
+        <div class="row">
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+        </div>
+        <div class="row qoute">
+          <span>Just been on a great trip to Ninh Bình Province with Dichoichung. Tuan, our tour guide, was both informative and helpful,
+            I am from the UK and speak very little Vietnamese. We saw impressive scenery and wildlife and had a great lunch too. The
+            group were very friendly and I will certainly go on another trip.</span>
+        </div>
+        <div class="row">
+          <i class="fa fa-quote-right qoute-right" aria-hidden="true"></i>
+        </div>
+        <div class="row qoute-name">
+          <span class="name">John Lester</span></br>
+          <span class="pos">Giáo viên</span>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-lg-4 wow bounceIn" data-wow-duration="2s">
+        <div class="row clientsphoto">
+          <img src="img/eric.png" alt="Ramil">
+        </div>
+        <div class="row">
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+        </div>
+        <div class="row qoute">
+          <span>Just been on a great trip to Ninh Bình Province with Dichoichung. Tuan, our tour guide, was both informative and helpful,
+            I am from the UK and speak very little Vietnamese. We saw impressive scenery and wildlife and had a great lunch too.
+            The group were very friendly and I will certainly go on another trip.</span>
+        </div>
+        <div class="row">
+          <i class="fa fa-quote-right qoute-right" aria-hidden="true" style="float: right;"></i>
+        </div>
+        <div class="row qoute-name">
+          <span class="name">John Lester</span></br>
+          <span class="pos">Giáo viên</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row item" style="height: 560px;">
+      <div class="col-md-4 col-lg-4 wow bounceIn" data-wow-duration="2s">
+        <div class="row clientsphoto">
+          <img src="img/bill.jpg" alt="Ramil">
+        </div>
+        <div class="row">
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+        </div>
+        <div class="row qoute">
+          <span>Thi thoảng đổi gió kiểu chơi cũng vui phết.</span>
+          <span>Chả mấy khi đi với các bạn mà mình chả quen xong lại thành cạ luôn.</span>
+          <span>Đc cái tiết kiệm hơn hẳn so với đi nhóm lẻ bình thường nên cho ĐCC 5 sao luôn nhé.</span>
+          <span>Quen đc mấy bạn cùng phòng nên lập thành team có slogan hẳn hoi luôn hehe "Lập nhóm dễ dàng, vui ko nhàm chán"</span>
+        </div>
+        <div class="row">
+          <i class="fa fa-quote-right qoute-right" aria-hidden="true" style="float: right;"></i>
+        </div>
+        <div class="row qoute-name">
+          <span class="name">Tu Anh Le</span></br>
+          <span class="pos">Marketing</span>
+        </div>
+      </div>
+    
+      <div class="col-md-4 col-lg-4 wow bounceIn" data-wow-duration="2s">
+        <div class="row clientsphoto">
+          <img src="img/eric.png" alt="Ramil">
+        </div>
+        <div class="row">
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+        </div>
+        <div class="row qoute">
+          <span>Just been on a great trip to Ninh Bình Province with Dichoichung. Tuan, our tour guide, was both informative and helpful,
+            I am from the UK and speak very little Vietnamese. We saw impressive scenery and wildlife and had a great lunch too. The
+            group were very friendly and I will certainly go on another trip.</span>
+        </div>
+        <div class="row">
+          <i class="fa fa-quote-right qoute-right" aria-hidden="true"></i>
+        </div>
+        <div class="row qoute-name">
+          <span class="name">John Lester</span></br>
+          <span class="pos">Giáo viên</span>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-lg-4 wow bounceIn" data-wow-duration="2s">
+        <div class="row clientsphoto">
+          <img src="img/eric.png" alt="Ramil">
+        </div>
+        <div class="row">
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+        </div>
+        <div class="row qoute">
+          <span>Just been on a great trip to Ninh Bình Province with Dichoichung. Tuan, our tour guide, was both informative and helpful,
+            I am from the UK and speak very little Vietnamese. We saw impressive scenery and wildlife and had a great lunch too.
+            The group were very friendly and I will certainly go on another trip.</span>
+        </div>
+        <div class="row">
+          <i class="fa fa-quote-right qoute-right" aria-hidden="true" style="float: right;"></i>
+        </div>
+        <div class="row qoute-name">
+          <span class="name">John Lester</span></br>
+          <span class="pos">Giáo viên</span>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
