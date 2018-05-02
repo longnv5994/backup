@@ -21,19 +21,48 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/preloader.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/icon.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/simple-line-icons.css">
 
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Antic|Raleway:300">
 </head>
 
 <body data-spy="scroll">
+  <div class="topnav">
+    <div class="footerline"></div>
+    <div class="row">
+      <div class="col-md-1 col-lg-1 link-top" style="margin-left: 10%;">
+        <a href="#home" class="logo"><img src="img/logo.png" alt="Dichoichung"></a>
+      </div>
+      <div class="col-md-1 col-lg-1 link-top" style="margin-left: 5%;">
+        <a class="active" href="#home">TRANG CHỦ</a>
+      </div>
+    
+      <div class="col-md-1 col-lg-1 link-top">
+        <a href="#experience">TRẢI NGHIỆM</a>
+      </div>
 
+      <div class="col-md-1 col-lg-1 link-top">
+        <a href="#about">VỀ CHÚNG TÔI</a>
+      </div>
+
+      <div class="col-md-1 col-lg-1 link-top">
+        <a href="#destination">CẨM NANG DU LỊCH</a>
+      </div>
+
+      <div class="col-md-1 col-lg-1 hotline">
+        HOTLINE: 0868146656
+      </div>
+      <div class="col-md-1 col-lg-1 currency"><a>VND   <i class="fa fa-angle-down"></i></a></div>
+      <div class="col-md-1 col-lg-1 language"><a>Vietnamese   <i class="fa fa-angle-down"></i></a></div>
+
+    </div>
+  </div>
+
+  
   <header>
     <div id="top-content">
       <div class="container slogan" id="home">
@@ -42,7 +71,7 @@
       </div>
 
       <div class="sub-slogan wow bounceInUp" data-wow-duration="3s">
-        <div class="col col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-4 content">
           <div class="col-md-4 col-lg-4">
             <i class="fa fa-link fa-2x sub-slogan-icon" aria-hidden="true"></i>
           </div>
@@ -52,7 +81,7 @@
           </div>
         </div>
         
-        <div class="col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-4 content">
           <div class="col-md-4 col-lg-4">
             <i class="fa fa-diamond fa-2x sub-slogan-icon" aria-hidden="true" style="padding: 20px 18px;"></i>
           </div>
@@ -62,7 +91,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-lg-4">
+        <div class="col-md-4 col-lg-4 content">
           <div class="col-md-4 col-lg-4">
             <i class="fa fa-star-o fa-2x sub-slogan-icon" aria-hidden="true"></i>
           </div>
@@ -73,6 +102,7 @@
         </div>
       </div>
     </div>
+
 
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
@@ -85,9 +115,8 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a class="navbar-brand" href="#top-content">
-            <span class="brandicon icon-grid"></span>
-            <span class="brandname">dichoichung</span>
+          <a class="navbar-brand" href="#home">
+            <img src="img/logo.png" alt="Dichoichung" style="height: 150%;">
           </a>
         </div>
 
@@ -116,15 +145,11 @@
   </header>
 
   <div id="experience" class="container">
-
-    <!-- SERVICE SECTION HEADING START -->
     <div class="sectionhead  row wow fadeInUp">
       <hr class="separetor">
       <h3 class="pink">TRẢI NGIỆM NỔI BẬT</h3>
     </div>
-    <!--SERVICE SECTION HEADING END-->
 
-    <!-- SERVICE ITEMS START -->
     <div class="row set-image">
       <a href="#" target="_blank">
         <div class="img-container col-md-6 col-lg-6 wow fadeInLeft" data-wow-duration="2s">
@@ -228,8 +253,6 @@
 
 
   <div id="destination" class="container">
-
-    <!-- SERVICE SECTION HEADING START -->
     <div class="sectionhead  row wow fadeInUp">
       <hr class="separetor">
       <h3 class="pink">ĐIỂM ĐẾN PHỔ BIẾN</h3>
@@ -281,57 +304,25 @@
         <p>ĐĂNG KÝ ĐỂ NHẬN TƯ VẤN MIỄN PHÍ</p>
       </div>
       <div class="row">
-        <div class="form-register">
-          <form class="flex-form">
-            <span class="break-line">
-              <label for="from"><i class="fa fa-user-o" aria-hidden="true"></i></label>
-              <input type="text" required="required" placeholder="Họ và tên">
-            </span>
-            <span class="break-line">
-              <label for="from"><i class="fa fa-envelope-o" aria-hidden="true"></i></label>
-              <input type="email" required="required" placeholder="Email">
-            </span>
-            <span>
-              <label for="from"><i class="fa fa-mobile" aria-hidden="true"></i></label>
-              <input type="tel" required="required" placeholder="Số điện thoại">
-            </span>
-            <span>
-              <input type="submit" value="GỬI NGAY" class="send-btn">
-            </span>
-          </form>
-        </div>
-      </div>
+        <div class="row flex-form">
+          <span class="break-line col-md-4 col-lg-4" style="padding-bottom: unset;">
+            <label for="from"><i class="fa fa-user-o" aria-hidden="true"></i></label>
+            <input type="text" required="required" placeholder="Họ và tên">
+          </span>
+          
+          <span class="break-line col-md-3 col-lg-3">
+            <label for="from"><i class="fa fa-envelope-o" aria-hidden="true"></i></label>
+            <input type="email" required="required" placeholder="Email">
+          </span>
 
+          <span class="col-md-3 col-lg-3">
+            <label for="from"><i class="fa fa-mobile" aria-hidden="true"></i></label>
+            <input type="tel" required="required" placeholder="Số điện thoại">
+          </span>
 
-      <div class="row" style="display: flex;">
-        <div class="col-4" style="padding-right:0;">
-          <div class="input-group input-group-user">
-            <span class="input-group-addon">
-              <i class="fa fa-user-o" aria-hidden="true"></i>
-            </span>
-            <input class="form-control" placeholder="Họ và tên">`
-          </div>
-        </div>
-        <div class="col-3" style="padding:0;">
-          <div class="input-group">
-            <span class="input-group-addon" style="border-left:none;">
-              <i class="fa fa-envelope-o" aria-hidden="true"></i>
-            </span>
-            <input class="form-control" placeholder="Email">
-          </div>
-        </div>
-        <div class="col-3" style="padding:0;">
-          <div class="input-group">
-            <span class="input-group-addon" style="border-left:none;border-right:none;">
-              <i class="fa fa-mobile" aria-hidden="true"></i>
-            </span>
-            <input class="form-control" placeholder="Số điện thoại" style="border-right:none;">
-          </div>
-        </div>
-        <div class="col-2" style="padding:0;">
-          <div class="input-group">
-            <button type="button" class="btn-send-email">Gửi ngay</button>
-          </div>
+          <span class="col-md-2 col-lg-2">
+            <button type="button" class="send-btn">GỬI NGAY</button>
+          </span>
         </div>
       </div>
     </div>
@@ -340,10 +331,8 @@
 
   <div id="about" class="container">
     <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
-      <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
-        <hr class="separetor">
-        <h3 class="pink">MỌI NGƯỜI NÓI GÌ VỀ DICHOICHUNG?</h3>
-      </div>
+      <hr class="separetor">
+      <h3 class="pink">MỌI NGƯỜI NÓI GÌ VỀ DICHOICHUNG?</h3>
     </div>
 
     <div id="myCarousel" class="row carousel slide" data-ride="carousel">
@@ -367,10 +356,9 @@
               <i class="fa fa-quote-left" aria-hidden="true"></i>
             </div>
             <div class="row qoute">
-              <span>Thi thoảng đổi gió kiểu chơi cũng vui phết.</span>
-              <span>Chả mấy khi đi với các bạn mà mình chả quen xong lại thành cạ luôn.</span>
-              <span>Đc cái tiết kiệm hơn hẳn so với đi nhóm lẻ bình thường nên cho ĐCC 5 sao luôn nhé.</span>
-              <span>Quen đc mấy bạn cùng phòng nên lập thành team có slogan hẳn hoi luôn hehe "Lập nhóm dễ dàng, vui ko nhàm chán"</span>
+              <span>Thi thoảng đổi gió kiểu chơi cũng vui phết. Chả mấy khi đi với các bạn mà mình chả quen xong lại thành cạ luôn. Đc cái tiết
+              kiệm hơn hẳn so với đi nhóm lẻ bình thường nên cho ĐCC 5 sao luôn nhé. Quen đc mấy bạn cùng phòng nên lập thành team có slogan
+              hẳn hoi luôn hehe "Lập nhóm dễ dàng, vui ko nhàm chán"</span>
             </div>
             <div class="row">
               <i class="fa fa-quote-right qoute-right" aria-hidden="true" style="float: right;"></i>
@@ -391,9 +379,9 @@
               <i class="fa fa-quote-left" aria-hidden="true"></i>
             </div>
             <div class="row qoute">
-              <span>Just been on a great trip to Ninh Bình Province with Dichoichung. Tuan, our tour guide, was both informative and
-                helpful, I am from the UK and speak very little Vietnamese. We saw impressive scenery and wildlife and had a
-                great lunch too. The group were very friendly and I will certainly go on another trip.</span>
+              <span>Just been on a great trip to Ninh Bình Province with Dichoichung. Tuan, our tour guide, was both informative and helpful,
+              I am from the UK and speak very little Vietnamese. We saw impressive scenery and wildlife and had a great lunch too. The
+              group were very friendly and I will certainly go on another trip.</span>
             </div>
             <div class="row">
               <i class="fa fa-quote-right qoute-right" aria-hidden="true"></i>
@@ -414,17 +402,17 @@
               <i class="fa fa-quote-left" aria-hidden="true"></i>
             </div>
             <div class="row qoute">
-              <span>Just been on a great trip to Ninh Bình Province with Dichoichung. Tuan, our tour guide, was both informative and
-                helpful, I am from the UK and speak very little Vietnamese. We saw impressive scenery and wildlife and had a
-                great lunch too. The group were very friendly and I will certainly go on another trip.</span>
+              <span>Cảm ơn bạn Duy cùng với đội ngũ các bạn trẻ của Dichoichung đã mang đến cho mình một chuyến đi tới vùng đất mới với rất nhiều
+              cung bậc cảm xúc khác nhau, những trải nghiệm thật thú vị. Đặc biệt là phải cảm ơn bạn Công Tước dù đường đi có khó khăn
+              mấy bạn ấy vẫn nhiệt tình đưa chị đi đến tận cùng địa danh để có đc những bức hình tuyệt đẹp, thật tuyệt vời vì mình đã tìm
+              đc đúng địa chỉ theo ý mình chả mấy khi đi với các bạn mà mình kg quen biết gì xong lại thành cạ luôn. Các bạn hãy trở thành
+              một người khôn ngoan, là người đi du lịch để khám phá chính mình nhé.</span>
             </div>
             <div class="row">
               <i class="fa fa-quote-right qoute-right" aria-hidden="true" style="float: right;"></i>
             </div>
             <div class="row qoute-name">
-              <span class="name">John Lester</span>
-              </br>
-              <span class="pos">Giáo viên</span>
+              <span class="name">Nhóm bạn Bùi Phương Thanh</span>
             </div>
           </div>
         </div>
@@ -432,6 +420,7 @@
 
         <!-- ==============ITEM-2================ -->
         <div class="row item" style="height: 560px;">
+          <!-- ==============QOUTE-1================ -->
           <div class="col-md-4 col-lg-4 wow bounceIn" data-wow-duration="2s">
             <div class="row clientsphoto">
               <img src="img/bill.jpg" alt="Ramil">
@@ -440,10 +429,9 @@
               <i class="fa fa-quote-left" aria-hidden="true"></i>
             </div>
             <div class="row qoute">
-              <span>Thi thoảng đổi gió kiểu chơi cũng vui phết.</span>
-              <span>Chả mấy khi đi với các bạn mà mình chả quen xong lại thành cạ luôn.</span>
-              <span>Đc cái tiết kiệm hơn hẳn so với đi nhóm lẻ bình thường nên cho ĐCC 5 sao luôn nhé.</span>
-              <span>Quen đc mấy bạn cùng phòng nên lập thành team có slogan hẳn hoi luôn hehe "Lập nhóm dễ dàng, vui ko nhàm chán"</span>
+              <span>Thi thoảng đổi gió kiểu chơi cũng vui phết. Chả mấy khi đi với các bạn mà mình chả quen xong lại thành cạ luôn. Đc
+                cái tiết kiệm hơn hẳn so với đi nhóm lẻ bình thường nên cho ĐCC 5 sao luôn nhé. Quen đc mấy bạn cùng phòng nên lập
+                thành team có slogan hẳn hoi luôn hehe "Lập nhóm dễ dàng, vui ko nhàm chán"</span>
             </div>
             <div class="row">
               <i class="fa fa-quote-right qoute-right" aria-hidden="true" style="float: right;"></i>
@@ -454,7 +442,8 @@
               <span class="pos">Marketing</span>
             </div>
           </div>
-
+        
+          <!-- ==============QOUTE-2================ -->
           <div class="col-md-4 col-lg-4 wow bounceIn" data-wow-duration="2s">
             <div class="row clientsphoto">
               <img src="img/eric.png" alt="Ramil">
@@ -463,9 +452,9 @@
               <i class="fa fa-quote-left" aria-hidden="true"></i>
             </div>
             <div class="row qoute">
-              <span>Just been on a great trip to Ninh Bình Province with Dichoichung. Tuan, our tour guide, was both informative and
-                helpful, I am from the UK and speak very little Vietnamese. We saw impressive scenery and wildlife and had a
-                great lunch too. The group were very friendly and I will certainly go on another trip.</span>
+              <span>Just been on a great trip to Ninh Bình Province with Dichoichung. Tuan, our tour guide, was both informative and helpful,
+                I am from the UK and speak very little Vietnamese. We saw impressive scenery and wildlife and had a great lunch too.
+                The group were very friendly and I will certainly go on another trip.</span>
             </div>
             <div class="row">
               <i class="fa fa-quote-right qoute-right" aria-hidden="true"></i>
@@ -476,7 +465,8 @@
               <span class="pos">Giáo viên</span>
             </div>
           </div>
-
+        
+          <!-- ==============QOUTE-3================ -->
           <div class="col-md-4 col-lg-4 wow bounceIn" data-wow-duration="2s">
             <div class="row clientsphoto">
               <img src="img/eric.png" alt="Ramil">
@@ -485,17 +475,17 @@
               <i class="fa fa-quote-left" aria-hidden="true"></i>
             </div>
             <div class="row qoute">
-              <span>Just been on a great trip to Ninh Bình Province with Dichoichung. Tuan, our tour guide, was both informative and
-                helpful, I am from the UK and speak very little Vietnamese. We saw impressive scenery and wildlife and had a
-                great lunch too. The group were very friendly and I will certainly go on another trip.</span>
+              <span>Cảm ơn bạn Duy cùng với đội ngũ các bạn trẻ của Dichoichung đã mang đến cho mình một chuyến đi tới vùng đất mới với
+                rất nhiều cung bậc cảm xúc khác nhau, những trải nghiệm thật thú vị. Đặc biệt là phải cảm ơn bạn Công Tước dù đường
+                đi có khó khăn mấy bạn ấy vẫn nhiệt tình đưa chị đi đến tận cùng địa danh để có đc những bức hình tuyệt đẹp, thật
+                tuyệt vời vì mình đã tìm đc đúng địa chỉ theo ý mình chả mấy khi đi với các bạn mà mình kg quen biết gì xong lại
+                thành cạ luôn. Các bạn hãy trở thành một người khôn ngoan, là người đi du lịch để khám phá chính mình nhé.</span>
             </div>
             <div class="row">
               <i class="fa fa-quote-right qoute-right" aria-hidden="true" style="float: right;"></i>
             </div>
             <div class="row qoute-name">
-              <span class="name">John Lester</span>
-              </br>
-              <span class="pos">Giáo viên</span>
+              <span class="name">Nhóm bạn Bùi Phương Thanh</span>
             </div>
           </div>
         </div>
@@ -504,6 +494,7 @@
         <!-- ==============ITEM-3================ -->
         
         <div class="row item" style="height: 560px;">
+          <!-- ==============QOUTE-1================ -->
           <div class="col-md-4 col-lg-4 wow bounceIn" data-wow-duration="2s">
             <div class="row clientsphoto">
               <img src="img/bill.jpg" alt="Ramil">
@@ -512,10 +503,9 @@
               <i class="fa fa-quote-left" aria-hidden="true"></i>
             </div>
             <div class="row qoute">
-              <span>Thi thoảng đổi gió kiểu chơi cũng vui phết.</span>
-              <span>Chả mấy khi đi với các bạn mà mình chả quen xong lại thành cạ luôn.</span>
-              <span>Đc cái tiết kiệm hơn hẳn so với đi nhóm lẻ bình thường nên cho ĐCC 5 sao luôn nhé.</span>
-              <span>Quen đc mấy bạn cùng phòng nên lập thành team có slogan hẳn hoi luôn hehe "Lập nhóm dễ dàng, vui ko nhàm chán"</span>
+              <span>Thi thoảng đổi gió kiểu chơi cũng vui phết. Chả mấy khi đi với các bạn mà mình chả quen xong lại thành cạ luôn. Đc
+                cái tiết kiệm hơn hẳn so với đi nhóm lẻ bình thường nên cho ĐCC 5 sao luôn nhé. Quen đc mấy bạn cùng phòng nên lập
+                thành team có slogan hẳn hoi luôn hehe "Lập nhóm dễ dàng, vui ko nhàm chán"</span>
             </div>
             <div class="row">
               <i class="fa fa-quote-right qoute-right" aria-hidden="true" style="float: right;"></i>
@@ -526,7 +516,8 @@
               <span class="pos">Marketing</span>
             </div>
           </div>
-
+        
+          <!-- ==============QOUTE-2================ -->
           <div class="col-md-4 col-lg-4 wow bounceIn" data-wow-duration="2s">
             <div class="row clientsphoto">
               <img src="img/eric.png" alt="Ramil">
@@ -535,9 +526,9 @@
               <i class="fa fa-quote-left" aria-hidden="true"></i>
             </div>
             <div class="row qoute">
-              <span>Just been on a great trip to Ninh Bình Province with Dichoichung. Tuan, our tour guide, was both informative and
-                helpful, I am from the UK and speak very little Vietnamese. We saw impressive scenery and wildlife and had a
-                great lunch too. The group were very friendly and I will certainly go on another trip.</span>
+              <span>Just been on a great trip to Ninh Bình Province with Dichoichung. Tuan, our tour guide, was both informative and helpful,
+                I am from the UK and speak very little Vietnamese. We saw impressive scenery and wildlife and had a great lunch too.
+                The group were very friendly and I will certainly go on another trip.</span>
             </div>
             <div class="row">
               <i class="fa fa-quote-right qoute-right" aria-hidden="true"></i>
@@ -548,7 +539,8 @@
               <span class="pos">Giáo viên</span>
             </div>
           </div>
-
+        
+          <!-- ==============QOUTE-3================ -->
           <div class="col-md-4 col-lg-4 wow bounceIn" data-wow-duration="2s">
             <div class="row clientsphoto">
               <img src="img/eric.png" alt="Ramil">
@@ -557,20 +549,23 @@
               <i class="fa fa-quote-left" aria-hidden="true"></i>
             </div>
             <div class="row qoute">
-              <span>Just been on a great trip to Ninh Bình Province with Dichoichung. Tuan, our tour guide, was both informative and
-                helpful, I am from the UK and speak very little Vietnamese. We saw impressive scenery and wildlife and had a
-                great lunch too. The group were very friendly and I will certainly go on another trip.</span>
+              <span>Cảm ơn bạn Duy cùng với đội ngũ các bạn trẻ của Dichoichung đã mang đến cho mình một chuyến đi tới vùng đất mới với
+                rất nhiều cung bậc cảm xúc khác nhau, những trải nghiệm thật thú vị. Đặc biệt là phải cảm ơn bạn Công Tước dù đường
+                đi có khó khăn mấy bạn ấy vẫn nhiệt tình đưa chị đi đến tận cùng địa danh để có đc những bức hình tuyệt đẹp, thật
+                tuyệt vời vì mình đã tìm đc đúng địa chỉ theo ý mình chả mấy khi đi với các bạn mà mình kg quen biết gì xong lại
+                thành cạ luôn. Các bạn hãy trở thành một người khôn ngoan, là người đi du lịch để khám phá chính mình nhé.</span>
             </div>
             <div class="row">
               <i class="fa fa-quote-right qoute-right" aria-hidden="true" style="float: right;"></i>
             </div>
             <div class="row qoute-name">
-              <span class="name">John Lester</span>
-              </br>
-              <span class="pos">Giáo viên</span>
+              <span class="name">Nhóm bạn Bùi Phương Thanh</span>
             </div>
           </div>
         </div>
+
+
+
       </div>
     </div>
 
@@ -696,7 +691,7 @@
   <!--Other necessary scripts-->
   <script src="js/jquery.nicescroll.min.js"></script>
   <script src="js/jribbble.min.js"></script>
-  <script src="js/drifolio.js"></script>
+  <script src="js/main.js"></script>
   <script src="js/wow.min.js"></script>
   <script>
     new WOW().init();

@@ -1,0 +1,119 @@
+*{	-webkit-transition: .7s ease-out;
+   -moz-transition: .7s ease-out;
+   -o-transition:  .7s ease-out;
+   transition: .7s ease-out;
+  list-style: none;
+}
+
+/*================================
+TYPOGRAPHY
+================================*/
+
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+}
+
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #FFFFFF;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.register-container {
+  padding-top: 10%;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, #00B09B 0%, #96C93D 100%);
+}
+.register-container .row {
+  width: 100% !important;
+  height: 90px;
+  margin: unset;
+}
+
+.title p {
+  text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 2.29px;
+	line-height: 26px;
+	text-align: center;
+}
+
+.form-register {
+  text-align: center;
+  width: 90%;
+  padding-left: 10%; 
+}
+
+.form-register label {
+  color: #3023AE;
+  margin-right: 10px;
+  margin-left: -10%;
+  font-size: 16px;
+}
+.form-register label .fa-mobile {
+  font-size: 21px !important;
+}
+
+
+.form-register input:focus {
+  outline: none;
+}
+
+.form-register .send-btn {
+  background: linear-gradient(90deg, #F3712A 0%, #ED345A 100%);
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+
+.form-register input {
+  border: none;
+  background-color: transparent;
+  height: 100%;
+  font-size: 16px;
+}
+
+.form-register .flex-form {
+  display: inline-block;
+  height: 50px;
+  float: left;
+  background-color: #FFFFFF;
+  margin-bottom: 8%;
+  border-radius: 25px;
+}
+
+
+
