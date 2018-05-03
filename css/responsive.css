@@ -11,10 +11,10 @@
 @media only screen and (max-width : 980px) {
   
   /*HREO AREA */
-  #top-content{height: 540px;}
+  #top-content{height: 100%;}
   
   /*ABOUT SECTION*/
-  #about{padding-top: 40px;}
+
   
   /* FEATURED CLIENTS SECTION*/
   #register {text-align: center;}
@@ -57,29 +57,26 @@
 
   
   /*top-content area*/
-  #top-content{height: 400px;}    
-  .slogan{padding-top: 30px;}
+  #top-content{line-height: 30px; height: 100%;}    
+  .slogan{padding-top: 30px;padding: 40px;}
   
   /*About section*/
-  #about{text-align: center;}
   
   /*Portfolio*/
   #shotsByPlayerId li {width: 96%;}
-  
-  /*Footer*/
-  .footerlinks li{display: none;}       
+       
 }
 
 /* Smaller Mobile Devices */
 @media only screen and (max-width : 480px) {
-  #top-content{height: 320px;}    
+  #top-content{line-height: 38px; height: 100%;}    
   #register {display: none;}
   .footersocial li{font-size: 1.5em}
+  .slogan{font-size: 28px;padding: 45px;}
 }
 
 /* Smallest Mobile Devices */
 @media only screen and (max-width : 320px) {
-  #top-content{height: 480px;}
-  .slogan{padding-top: 100px; padding-bottom: 30px;}
-
+  #top-content{line-height: 30px; height: 100%;}
+  .slogan{padding-top: 100px; padding-bottom: 30px;font-size: 21px;padding: 50px;}
 }

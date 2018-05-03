@@ -10,8 +10,8 @@ TYPOGRAPHY
 ================================*/
 body {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
   height: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -39,8 +39,8 @@ img{max-width: 100%;}
 
 .sectionhead{
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 hr.separetor{
@@ -127,20 +127,16 @@ top-content AREA
 }
 
 .slogan{
-  font-size: 28px;
   font-weight: 100 !important;
-  line-height: 45px;
   padding-top: 13%;
   width: 100%;
   letter-spacing: 0.19px;
   max-width: 900px;
 }
+
 .sub-slogan{
   width: 100%;
-  height: 130px;
-  margin-top: 10%;
   background-color: rgba(0,0,0,0.2);
-  padding-left: 10%;
   padding-right: 10%;
 }
 
@@ -176,7 +172,12 @@ top-content AREA
 .sub-logo-content {
   display: inline-block;
   text-align: left;
-  margin-top: 24px;
+  padding-right: unset;
+  padding-top: 20px;
+}
+
+.sub-logo-icon {
+  padding-bottom: 10px;
 }
 
 /*================================
@@ -254,10 +255,14 @@ REGISTER SECTION
 /*================================
 ABOUT SECTION
 ================================*/
+.about-title {
+  letter-spacing: 2.57px;
+  font-size: 18px;
+}
 
 .clientsphoto {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .clientsphoto img{
@@ -271,8 +276,6 @@ ABOUT SECTION
 }
 
 .qoute {
-  height: 150px;
-  width: 360px;
   color: #000000;
   font-family: "Open Sans";
   font-size: 14px;
@@ -287,7 +290,7 @@ ABOUT SECTION
 
 .qoute-name {
   position: absolute;
-  bottom: -25%;
+  margin-top: 15px;
   right: 10%;
 }
 
@@ -312,14 +315,13 @@ ABOUT SECTION
   text-align: justify;
 }
 
-.carousel-inner {
-  overflow: unset;
+#about .carousel-inner .item {
+  padding: 0 40px;
 }
 
 .carousel-indicators {
   right: 50%;
   top: auto;
-  bottom: 10%;
 }
 
 .carousel-indicators li {
@@ -342,9 +344,13 @@ FOOTER SECTION
 ================================*/
 
 footer {
-  height: 290px;
+  height: 300px;
   position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: #313131;
+  overflow: hidden;
 }
 
 footer.container {
@@ -356,13 +362,13 @@ footer.container {
   position: absolute;
   top: 0%;
   height: 5px;
-  background: linear-gradient(90deg, #F3712A 0%, #ED345A 100%);
+  background: #ED345A;
 }
 
 .footerlinks {
   position: relative;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 20px;
   float: left;
   color: #FFFFFF;
   height: 159px;
@@ -371,7 +377,8 @@ footer.container {
   text-align: justify;
 }
 .footerlinks li {
-  margin-top: 15px;
+  margin-top: 12px;
+  margin-left: 35px;
 }
 
 .footerlinks .first-link {
@@ -385,7 +392,7 @@ footer.container {
   width: 100%;
   position: relative;
   bottom: 0%;
-  height: 89px;
+  height: 100%;
   margin: unset;
   background: linear-gradient(90deg, #F3712A 0%, #ED345A 100%);
   text-align: center;
@@ -394,7 +401,18 @@ footer.container {
   color: #FFFFFF;
   padding-top: 1%;
 }
+footer .register {
+  padding-top: 14px;
+  margin-top: 10px;
+  border-top: 2px solid white;
+}
 
+footer .register a{
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: white;
+}
 /* ======================= */
 
 
@@ -442,6 +460,7 @@ footer.container {
 
 /* Centered text */
 .centered {
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -470,8 +489,9 @@ footer.container {
 
 .palace-name {
   color: #FFFFFF;
-  font-size: 24px;
-  font-weight: bold !important;
+  font-size: 18px;
+  letter-spacing: 1.75px;
+  font-weight: 100;
   line-height: 33px;
 }
 
@@ -500,15 +520,15 @@ footer.container {
 .ctrlq.fb-button,
 .ctrlq.fb-close {
   position: fixed;
-  right: 24px;
+  right: 5px;
   cursor: pointer
 }
 
 .ctrlq.fb-button {
   z-index: 999;
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyOCAxMjgiIGhlaWdodD0iMTI4cHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjggMTI4IiB3aWR0aD0iMTI4cHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnPjxyZWN0IGZpbGw9IiMwMDg0RkYiIGhlaWdodD0iMTI4IiB3aWR0aD0iMTI4Ii8+PC9nPjxwYXRoIGQ9Ik02NCwxNy41MzFjLTI1LjQwNSwwLTQ2LDE5LjI1OS00Niw0My4wMTVjMCwxMy41MTUsNi42NjUsMjUuNTc0LDE3LjA4OSwzMy40NnYxNi40NjIgIGwxNS42OTgtOC43MDdjNC4xODYsMS4xNzEsOC42MjEsMS44LDEzLjIxMywxLjhjMjUuNDA1LDAsNDYtMTkuMjU4LDQ2LTQzLjAxNUMxMTAsMzYuNzksODkuNDA1LDE3LjUzMSw2NCwxNy41MzF6IE02OC44NDUsNzUuMjE0ICBMNTYuOTQ3LDYyLjg1NUwzNC4wMzUsNzUuNTI0bDI1LjEyLTI2LjY1N2wxMS44OTgsMTIuMzU5bDIyLjkxLTEyLjY3TDY4Ljg0NSw3NS4yMTR6IiBmaWxsPSIjRkZGRkZGIiBpZD0iQnViYmxlX1NoYXBlIi8+PC9zdmc+) center no-repeat #0084ff;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 48px;
   text-align: center;
   bottom: 50px;
   border: 0;
