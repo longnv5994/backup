@@ -330,7 +330,7 @@ REGISTER SECTION
 }
 
 .count-down {
-  background: url(../img/condao-countdown.jpg)no-repeat !important;
+  background: url(../img/mobile/condao-countdown.jpg)no-repeat !important;
   background-size: 100% 100% !important;
   height: 300px !important;
   background-repeat: no-repeat;
@@ -520,7 +520,7 @@ SCHEDULE DETAIL SECTION
 	color: #000000;
 	font-size: 14px;
   line-height: 21px;
-  font-weight: 300;
+  font-weight: 400;
   margin: 0px 0 3px !important;
 }
 
@@ -550,8 +550,8 @@ COST TITLE SECTION
 	height: 28px;
 	color: #FFFFFF;
 	font-size: 21px;
-	font-weight: 600;
-	letter-spacing: 3px;
+	font-weight: 300;
+  letter-spacing: 2px;
 	line-height: 28px;
 }
 
@@ -560,7 +560,7 @@ COST TITLE SECTION
 	height: 57px;
   color: #FFFFFF;
 	font-family: Lato;
-	font-size: 48px;
+	font-size: 36px;
 	font-weight: bold;
 	line-height: 57px;
 }
@@ -592,7 +592,8 @@ COST DETAIL SECTION
 #cost-detail p {
   letter-spacing: unset;
 	color: #000000;
-	font-size: 14px;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 #cost-detail .sectionhead {

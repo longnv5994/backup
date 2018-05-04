@@ -141,7 +141,7 @@ top-content AREA
 }
 
 #top-content .logo{
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .circle-icon {
@@ -640,26 +640,38 @@ footer .register a{
   font-size: 13px;
 }
 
-/* =================NAVI BAR ACTIVE================ */
+/* =================NAVI BAR ACTIVE================ */ 
+
+.navbar-toggle {
+  position: relative;
+  float: left;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-left: 15px;
+  margin-bottom: 8px;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: transparent;
+}
+
 .navbar-inverse {
-  background: linear-gradient(90deg, #F3712A 0%, #ED345A 100%);
-  border-color: tomato;
+  background: linear-gradient(90deg, #F3712A 0%, #ED345A 100%);  
+  border-color: transparent;
 }
 
 .navbar-inverse .navbar-nav>li>a {
-  color: #ffffff;
+  color: #FFFFFF;
 }
-.navbar-inverse .navbar-nav>li>a:hover {
-  color: #ffffff;
-  transform: scale(1.1);
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: red;
+  border-bottom: 1px solid red;
+  background: linear-gradient(90deg, #F3712A 0%, #ED345A 100%);
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-  color: #fff;
-  background-color: unset;
-  font-weight: 600;
-  border-bottom: 2px solid;
-  padding-bottom: 1px;
+  background-color: transparent;
 }
 
 /* ==========NAVI BAR STATIC=========== */
@@ -698,17 +710,14 @@ footer .register a{
 }
 
 .hotline {
-  margin-left: 5%;
-  display: inline;
-  background: linear-gradient(90deg, #F3712A 0%, #ED345A 100%);
-  padding: 20px 30px;
-  text-align: center;
-  color: #FFFFFF;
-  font-size: 14px;
-  font-weight: 600;
-  width: 17%;
-  border-bottom-left-radius: 25px 50px;
-  border-bottom-right-radius: 25px 50px;
+  margin-top: 18px;
+  margin-right: 5%;
+  float: right;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 0.72px;
+  line-height: 17px;
+  font-size: 12px;
 }
 
 .link-top {
